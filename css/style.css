@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* fonts import */
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+
+/* reset by medic */
+* {padding:0; margin:0;}
+img {border:0 none;}
+div {display:block; position:relative;}
+ul {list-style: none;}
+.hidden {display: none;}
+.clr:after {display:none; position:relative; content:' '; color:transparent; font-size:0; line-height:0; clear:both;}
+
+body {background: #fff; font-family: 'Cuprum', sans-serif; font-weight: 400;}
+
+/* wrapper */
+.wrapper {width: 1366px; margin: 0 auto; background: #fff;}
