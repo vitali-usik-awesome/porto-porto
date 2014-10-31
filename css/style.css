@@ -55,13 +55,14 @@ header {height: 722px; background-color: #91cfe3;}
 	.par img {max-width: 100%; min-width: 1366px;}
 
 /* choice */
-.choice {}
+.choice {height: 200px;}
 
 /* action */
-.action {}
+.action {height: 200px;}
 
 /* how */
 .how {}
+	.how h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
 
 /* reviews */
 .reviews {}
@@ -78,6 +79,8 @@ header {height: 722px; background-color: #91cfe3;}
 /* question */
 .question {}
 
+/* gray_line */
+.gray_line {border-bottom: 1px solid #dedede; width: 1366px; margin: 0 auto;}
 
 
 
