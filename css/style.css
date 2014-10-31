@@ -21,17 +21,29 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 header {height: 722px; background-color: #91cfe3;}
 
 /* nav */
-.nav {overflow: hidden; height: 44px;}
+.nav {overflow: hidden; height: 45px;}
 	.nav ul {position: relative; float: left; left: 50%; margin-top: 14px;}
 	.nav li {position:relative; float:left; left: -50%; margin: 0 10px;}
 	.nav a {display: block; position: relative; text-decoration: none; line-height: 20px; height: 18px; border-bottom: 1px solid #fff; color: #000; text-transform: uppercase;}
 	.nav a:hover {border-bottom: 1px solid #000;}
 
 /* free_call */
-.free_call {height: 200px;}
+.free_call {overflow: hidden; height: 73px; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;}
+	.free_call .logo {display: block; position: relative; float: left; margin: 19px 0 0 24px;}
+	.desc {display: block; position: relative; float: left; margin: 19px 0 0 7px;}
+		.desc p {text-transform: uppercase; line-height: 11px;}
+		.desc p:first-child {margin: -1px 0 17px 0;}
+	.free_call h2 {display: block; position: relative; float: right; text-align: center; margin: 18px 24px 0 20px; font-weight: normal;}
+	.free_call h2 a {text-decoration: none;}
+	.call_us {display: block; position: relative; float: right; margin-top: 16px;}
+		.call_us p {text-transform: uppercase; line-height: 14px;}
+
+	.black_button {display: block; position: relative; height: 36px; width: 193px; font-size: 12px !important; line-height: 36px; border: 1px solid #fff; color: #fff; background-color: #000;}
+		.black_button:hover {background-color: #fff; color: #000; border: 1px solid #000;}
+		.black_button:active {background-color: #fff; color: #000; border: 1px solid #000;}
 
 /* paralax_item */
-.paralax_item {}
+.paralax_item {height: 200px;}
 
 /* choice */
 .choice {}
