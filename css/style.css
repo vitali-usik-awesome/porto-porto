@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 /* fonts import */
-@import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic&subset=latin,cyrillic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic&subset=latin,cyrillic);
 
 /* reset by medic */
 * {padding:0; margin:0;}
@@ -43,7 +42,11 @@ header {height: 722px; background-color: #91cfe3;}
 		.black_button:active {background-color: #fff; color: #000; border: 1px solid #000;}
 
 /* paralax_item */
-.paralax_item {height: 200px;}
+.paralax_item {}
+	.paralax_item h2 {font-family: 'Playfair Display SC', sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400; text-align: center; margin: 31px 0;}
+	.paralax_item h2 b {font-weight: 700;}
+	.paralax_item .line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
+	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
 
 /* choice */
 .choice {}
