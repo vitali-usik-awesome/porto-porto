@@ -12,19 +12,23 @@ ul {list-style: none;}
 .hidden {display: none;}
 .clr:after {display:none; position:relative; content:' '; color:transparent; font-size:0; line-height:0; clear:both;}
 
-body {background: #fff; font-family: 'Cuprum', sans-serif; font-weight: 400;}
+body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 
 /* wrapper */
 .wrapper {width: 1366px; margin: 0 auto; background: #fff;}
 
 /* header */
-header {}
+header {height: 722px; background-color: #91cfe3;}
 
 /* nav */
-.nav {}
+.nav {overflow: hidden; height: 44px;}
+	.nav ul {position: relative; float: left; left: 50%; margin-top: 14px;}
+	.nav li {position:relative; float:left; left: -50%; margin: 0 10px;}
+	.nav a {display: block; position: relative; text-decoration: none; line-height: 20px; height: 18px; border-bottom: 1px solid #fff; color: #000; text-transform: uppercase;}
+	.nav a:hover {border-bottom: 1px solid #000;}
 
 /* free_call */
-.free_call {}
+.free_call {height: 200px;}
 
 /* paralax_item */
 .paralax_item {}
