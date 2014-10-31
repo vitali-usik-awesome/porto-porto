@@ -14,7 +14,9 @@ ul {list-style: none;}
 body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 
 /* wrapper */
-.wrapper {width: 1366px; margin: 0 auto; background: #fff;}
+.wrapper {/*width: 1366px; margin: 0 auto;*/ background: #fff;}
+
+.sub_wrapper {width: 1366px; margin: 0 auto;}
 
 /* header */
 header {height: 722px; background-color: #91cfe3;}
@@ -47,6 +49,10 @@ header {height: 722px; background-color: #91cfe3;}
 	.paralax_item h2 b {font-weight: 700;}
 	.paralax_item .line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
 	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
+
+.par {display: block; position: relative; width: 100%;}
+	.par h3 {width: 100%;}
+	.par img {max-width: 100%; min-width: 1366px;}
 
 /* choice */
 .choice {}
