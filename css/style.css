@@ -18,6 +18,9 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 
 .sub_wrapper {width: 1366px; margin: 0 auto;}
 
+/* common */
+.line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
+
 /* header */
 header {height: 722px; background-color: #91cfe3;}
 
@@ -47,7 +50,6 @@ header {height: 722px; background-color: #91cfe3;}
 .paralax_item {}
 	.paralax_item h2 {font-family: 'Playfair Display SC', sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400; text-align: center; margin: 31px 0;}
 	.paralax_item h2 b {font-weight: 700;}
-	.paralax_item .line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
 	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
 
 .par {display: block; position: relative; width: 100%;}
@@ -55,7 +57,20 @@ header {height: 722px; background-color: #91cfe3;}
 	.par img {max-width: 100%; min-width: 1366px;}
 
 /* choice */
-.choice {height: 200px;}
+.choice {font-family: "Playfair Display SC", sans-serif;}
+	.choice h2 {font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
+	.choice h3 {font-size: 20px; text-align: center; margin: 30px 0;}
+	.choice_wrapper {overflow: hidden;}
+		.choice_item {display: block; position: relative; float: left;}
+			.c_item {/*background: url(../img/choice.png) 0 0 no-repeat;*/ height: 179px; width: 294px; text-align: center;}
+			.c_item h4 {width: 222px; background: #fff; margin-left: 36px; font-size: 20px; line-height: 20px; padding: 20px 0;}
+		
+		.choice_item h5 {text-align: center; margin: 18px 36px 0 36px; text-transform: uppercase;}
+			.choice_item h5 a {text-decoration: none;}
+
+		.white_button {display: block; position: relative; height: 32px; width: 220px; font-size: 12px !important; line-height: 32px; border: 1px solid #000; color: #000; background-color: #fff;}
+			.white_button:hover {background-color: #000; color: #fff; border: 1px solid #fff;}
+			.white_button:active {background-color: #000; color: #fff; border: 1px solid #fff;}
 
 /* action */
 .action {height: 200px;}
