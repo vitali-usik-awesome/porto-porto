@@ -22,7 +22,7 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 .line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
 
 /* header */
-header {height: 722px; background-color: #91cfe3;}
+header {height: 12px; background-color: #91cfe3;}
 
 /* nav */
 .nav {overflow: hidden; height: 45px;}
@@ -32,7 +32,7 @@ header {height: 722px; background-color: #91cfe3;}
 	.nav a:hover {border-bottom: 1px solid #000;}
 
 /* free_call */
-.free_call {overflow: hidden; height: 73px; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;}
+.free_call {overflow: hidden; height: 73px; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; width: 1366px; margin: 0 auto;}
 	.free_call .logo {display: block; position: relative; float: left; margin: 19px 0 0 24px;}
 	.desc {display: block; position: relative; float: left; margin: 19px 0 0 7px;}
 		.desc p {text-transform: uppercase; line-height: 11px;}
@@ -99,7 +99,6 @@ header {height: 722px; background-color: #91cfe3;}
 				.get_sale_button:hover {background-color: #fff; color: #000; border: 1px solid #000;}
 				.get_sale_button:active {background-color: #fff; color: #000; border: 1px solid #000;}
 
-
 /* how */
 .how {}
 	.how h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
@@ -113,10 +112,18 @@ header {height: 722px; background-color: #91cfe3;}
 	.how li p {margin: 80px 0 83px 29px; width: 138px; font-size: 14px;}
 
 /* reviews */
-.reviews {height: 100px;}
+.reviews {}
+	.reviews h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
+		.review_wrapper {overflow: hidden; width: 940px; margin: 0 auto;}
+			.item {display: block; position: relative; float: left; margin-bottom: 40px; /*width: 322px;*/ margin-right: 30px;}
+			.item:last-child {margin-right: 0;}
+			.item h3 {border: 1px solid #000; height: 55px; text-align: center; font-family: "Playfair Display SC", sans-serif; font-size: 15px; line-height: 22px; margin-top: 8px;}
+			.item h3 b {font-style: italic;}
+	.reviews h4 {text-align: center; font-weight: normal; margin: 0 0 40px 554px;}
+	.reviews h4 a {text-decoration: none;}
 
 /* free_advice */
-.free_advice {}
+.free_advice {height: 100px;}
 
 /* look */
 .look {}
