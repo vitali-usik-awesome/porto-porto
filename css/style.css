@@ -63,9 +63,17 @@ header {height: 722px; background-color: #91cfe3;}
 /* how */
 .how {}
 	.how h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
+	.how ul {text-align: center; text-transform: uppercase;}
+	.how li {display: inline-block; width: 196px; margin-right: 0;}
+	.how li:first-child {background: url(../img/how_bg.png) 10px 0 no-repeat;}
+	.how li {background: url(../img/how_bg.png) -186px 0 no-repeat;}
+	.how li:last-child {background: url(../img/how_bg.png) -772px 0 no-repeat;}
+	.how li h5 {font-family: 'Playfair Display SC', sans-serif; font-size: 20px; width: 80px; margin: 0 0 0 60px;}
+	.how li h5 b {font-size: 70px; font-style: italic;}
+	.how li p {margin: 80px 0 83px 29px; width: 138px; font-size: 14px;}
 
 /* reviews */
-.reviews {}
+.reviews {height: 100px;}
 
 /* free_advice */
 .free_advice {}
