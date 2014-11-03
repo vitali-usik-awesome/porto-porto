@@ -77,7 +77,28 @@ header {height: 722px; background-color: #91cfe3;}
 			.white_button:active {background-color: #000; color: #fff; border: 1px solid #fff;}
 
 /* action */
-.action {height: 200px;}
+.action {}
+	.action h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
+	.action_wrapper {overflow: hidden; display: block; position: relative; width: 924px; height: 688px; margin: 40px 221px;}
+		.action_img {display: block; position: absolute; top: 0; left: 0; z-index: 100;}
+		.action_form {display: block; position: absolute; bottom: 0; left: 0; z-index: 150; background: #fff; height: 272px; width: 600px; margin: 0 162px;}
+			.a_form {display: block; position: absolute; z-index: 200; border: 1px solid #000; height: 258px; width: 586px; margin: 6px;}
+			.a_form h3 {font-family: "Playfair Display SC", sans-serif; font-size: 21px; line-height: 21px; text-align: center; margin: 25px 0;}
+			.a_form h3 b {font-style: italic;}
+				.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
+			.a_form p {font-size: 11px; line-height: 11px; font-weight: bold; text-align: center; margin-top: 28px;}
+			.a_form p:last-child {margin-top: 8px;}
+			.a_form p b {font-size: 19px;}
+
+			.get_sale {overflow: hidden; margin-top: 20px;}
+			.get_sale_input {display: block; position: relative; float: left; margin: 0 22px 0 20px;}
+				.get_sale_input input {width: 255px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
+			.get_sale h4 {display: block; position: relative; float: left; text-align: center; font-weight: normal;}
+			.get_sale h4 a {text-decoration: none;}
+			.get_sale_button {display: block; position: relative; height: 36px; width: 255px; font-size: 12px !important; line-height: 36px; border: 1px solid #fff; color: #fff; background-color: #000;}
+				.get_sale_button:hover {background-color: #fff; color: #000; border: 1px solid #000;}
+				.get_sale_button:active {background-color: #fff; color: #000; border: 1px solid #000;}
+
 
 /* how */
 .how {}
