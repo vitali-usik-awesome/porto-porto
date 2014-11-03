@@ -60,11 +60,15 @@ header {height: 722px; background-color: #91cfe3;}
 .choice {font-family: "Playfair Display SC", sans-serif;}
 	.choice h2 {font-size: 30px; line-height: 30px; color: #000; font-weight: 400px; text-align: center; margin: 64px 0;}
 	.choice h3 {font-size: 20px; text-align: center; margin: 30px 0;}
-	.choice_wrapper {overflow: hidden;}
-		.choice_item {display: block; position: relative; float: left;}
-			.c_item {/*background: url(../img/choice.png) 0 0 no-repeat;*/ height: 179px; width: 294px; text-align: center;}
-			.c_item h4 {width: 222px; background: #fff; margin-left: 36px; font-size: 20px; line-height: 20px; padding: 20px 0;}
+	.choice_wrapper {overflow: hidden; margin-left: 206px;}
+	.choice_wrapper:last-child {margin-bottom: 80px;}
+		.choice_item {display: block; position: relative; float: left; height: 250px; width: 294px; overflow: hidden; margin: 0 12px;}
+			.c_item {position: absolute; top: 0; left: 0; z-index: 100;}
 		
+			.ch {display: block; position: absolute; bottom: 0; left: 0; z-index: 150;}
+				.ch span {display: block; width: 222px; background: #fff; margin-left: 36px; font-size: 20px; line-height: 20px; padding: 20px 0; text-align: center;}
+				.ch a {display: block;}
+
 		.choice_item h5 {text-align: center; margin: 18px 36px 0 36px; text-transform: uppercase;}
 			.choice_item h5 a {text-decoration: none;}
 
