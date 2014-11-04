@@ -146,10 +146,22 @@ header {height: 12px; background-color: #91cfe3;}
 .look {height: 100px;}
 
 /* map */
-.map {height: 100px;}
+.map {display: block; position: relative;}
+	.map h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 63px 0 61px 0; font-weight: normal;}
+	.map_adress_wrapper {display: block; position: absolute; top: 54%; left: 34%; width: 426px; height: 151px; background: #fff; z-index: 100;}
+	.map_adress {display: block; position: absolute; width: 410px; height: 136px; border: 1px solid #000; z-index: 150; margin: 7px 9px;}
+	.map_adress h3 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin-top: 53px; font-weight: normal;}
+	.map_adress h3 b {font-style: italic;}
 
 /* question */
-.question {}
+.question {width: 1366px; margin: 0 auto;}
+	.question h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: normal; text-align: center; margin: 63px 0 39px 0;}
+	.question p {text-transform: uppercase; text-align: center; font-weight: bold; margin-top: 33px;}
+	.question form {margin: 0 auto; width: 530px; padding: 52px 0 84px 30px;}
+	.question input {width: 442px; padding-left: 36px; height: 32px; line-height: 32px; font-size: 19px !important;}
+	.question textarea {width: 462px; padding: 7px 0 0 18px; height: 208px; line-height: 32px; font-size: 19px !important; margin-top: 14px; text-transform: uppercase;}
+	.question h4 {text-align: center; font-weight: normal; text-transform: uppercase; margin-top: 43px;}
+	.question h4 a {text-decoration: none; width: 482px;}
 
 /* gray_line */
 .gray_line {border-bottom: 1px solid #dedede; width: 1366px; margin: 0 auto;}
