@@ -192,7 +192,92 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 			.get_sale_design {margin-top: 32px;}
 
 /* look */
-.look {height: 100px;}
+.look {}
+	.look h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 64px 0 73px 0; font-weight: normal;}
+		.look_img {width: 170px; margin: 0 0 -20px 598px;}
+
+.carousel {
+    margin: 0 auto;
+    position: relative;
+    width: 1044px;
+}
+
+.carousel_desc_wrapper {display: block; position: absolute; width: 170px; height: 58px; background: #fff; z-index: 5; left: 50%; margin-left: -85px; top: 78%;}
+	.carousel_desc {display: block; position: absolute; width: 162px; height: 50px; margin: 3px; border: 1px solid #000; z-index: 6;}
+	.carousel_desc h5 {font-family: "Playfair Display SC", sans-serif; font-size: 18px; line-height: 18px; text-align: center; margin-top: 16px;}
+
+.carousel-wrapper {height: 380px}
+
+.carousel-box {
+    background-color: #CFCFCF;
+    height: 230px;
+    left: 50%;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin: -62px 0 0 -100px;
+    width: 200px;
+    z-index: -1;
+
+    -webkit-transition: 0.5s ease-out;
+       -moz-transition: 0.5s ease-out;
+        -ms-transition: 0.5s ease-out;
+         -o-transition: 0.5s ease-out;
+            transition: 0.5s ease-out;
+}
+
+.carousel-box.is-active {
+    z-index: 4;
+    width: 480px;
+    height: 300px;
+    left: 50%;
+    margin: 35px 0 0 -240px;
+    top: 0;
+}
+
+.carousel-box.left,
+.carousel-box.right {
+    width: 368px;
+    height: 230px;
+}
+
+.carousel-box.left {
+    left: 55px;
+    margin: 0;
+    top: 72px;
+    z-index: 2;
+}
+
+.carousel-box.right {
+    left: 620px;
+    margin: 0;
+    top: 72px;
+    z-index: 2;
+}
+
+.nav-left,
+.nav-right {
+    background: url('../img/arrow1.png') no-repeat left 5px;
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    top: 160px;
+    width: 44px;
+}
+
+.nav-left {left: -9px;}
+
+.nav-right {
+    right: -9px;
+    background-position: right -119px;
+}
+
+
+
+
+
+
 
 /* map */
 .map {display: block; position: relative;}
