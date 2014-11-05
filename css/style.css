@@ -38,8 +38,6 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 			.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
 		.g_form p {font-size: 11px; line-height: 18px; font-weight: bold; text-align: center; margin: 18px 22px 18px 22px; text-transform: uppercase;}
 
-		/*.get_sale {overflow: hidden; margin-top: 24px;}*/
-
 			.gift_input {margin: 0 21px 22px 23px;}
 			.gift_input:before {content: "+375"; display: block; height: 40px; color: #363636; position: absolute; top: 9px; left: 15px; font-size: 19px;}
 
@@ -142,7 +140,8 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 
 			.get_sale {overflow: hidden; margin-top: 24px;}
 			.get_sale_input {display: block; position: relative; float: left; margin: 0 21px 0 23px;}
-				.get_sale_input input {width: 219px; padding-left: 36px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
+			.get_sale_input:before {content: "+375"; display: block; height: 40px; color: #363636; position: absolute; top: 9px; left: 39px; font-size: 19px;}
+				.get_sale_input input {width: 171px; padding-left: 85px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
 			.get_sale h4 {display: block; position: relative; float: left; text-align: center; font-weight: normal;}
 			.get_sale h4 a {text-decoration: none;}
 			.get_sale_button {display: block; position: relative; height: 36px; width: 258px; font-size: 12px !important; line-height: 36px; border: 1px solid #fff; color: #fff; background-color: #000;}
@@ -208,7 +207,8 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 	.question h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: normal; text-align: center; margin: 63px 0 39px 0;}
 	.question p {text-transform: uppercase; text-align: center; font-weight: bold; margin-top: 33px;}
 	.question form {margin: 0 auto; width: 530px; padding: 52px 0 84px 30px;}
-	.question input {width: 442px; padding-left: 36px; height: 32px; line-height: 32px; font-size: 19px !important;}
+	.question .footer_input_wrapper:before {content: "+375"; display: block; height: 40px; color: #363636; position: absolute; top: 9px; left: 23px; font-size: 19px;}
+	.question input {width: 412px; padding-left: 69px; height: 32px; line-height: 32px; font-size: 19px !important;}
 	.question textarea {width: 462px; padding: 7px 0 0 18px; height: 208px; line-height: 32px; font-size: 19px !important; margin-top: 14px; text-transform: uppercase;}
 	.question h4 {text-align: center; font-weight: normal; text-transform: uppercase; margin-top: 43px;}
 	.question h4 a {text-decoration: none; width: 482px;}
