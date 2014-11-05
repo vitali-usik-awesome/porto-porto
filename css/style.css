@@ -39,8 +39,11 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 		.g_form p {font-size: 11px; line-height: 18px; font-weight: bold; text-align: center; margin: 18px 22px 18px 22px; text-transform: uppercase;}
 
 		/*.get_sale {overflow: hidden; margin-top: 24px;}*/
+
 			.gift_input {margin: 0 21px 22px 23px;}
-				.gift_input input {width: 243px; padding-left: 14px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
+			.gift_input:before {content: "+375"; display: block; height: 40px; color: #363636; position: absolute; top: 9px; left: 15px; font-size: 19px;}
+
+				.gift_input input {width: 195px; padding-left: 62px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
 		.g_form h4 {text-align: center; font-weight: normal;}
 		.g_form h4 a {text-decoration: none; margin: 0 auto;}
 			.get_sale_button {height: 36px; width: 258px; font-size: 12px !important; line-height: 36px; border: 1px solid #fff; color: #fff; background-color: #000;}
