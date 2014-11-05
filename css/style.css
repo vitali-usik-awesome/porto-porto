@@ -20,6 +20,7 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 
 /* common */
 .line {border-bottom: 1px solid #000; width: 140px; margin: 0 auto;}
+.white_line {border-bottom: 1px solid #fff; width: 138px; margin: 0 auto;}
 
 /* header */
 header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width: 1366px; margin: 0 auto;}
@@ -27,7 +28,41 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 	.transparent_button {border: 1px solid #fff; color: #fff; background: transparent;}
 		.transparent_button:hover {background-color: #000; color: #fff; border: 1px solid #fff;}
 		.transparent_button:active {background-color: #000; color: #fff; border: 1px solid #fff;}
+	header h1 {font-family: 'Playfair Display SC', sans-serif; font-size: 40px; line-height: 40px; text-align: center; font-weight: normal; width: 500px; color: #fff; margin: 0 auto; padding: 65px 0 35px 0;}
+	header h1 b {font-style: italic;}
+	header h5 {font-family: 'Playfair Display SC', sans-serif; font-size: 30px; line-height: 30px; text-align: center; font-weight: normal; width: 500px; color: #fff; margin: 0 auto; padding: 24px 0 29px 0;}
+	header h5 b {font-style: italic;}
+	.gift_form {display: block; position: relative; z-index: 150; background: #fff; height: 294px; width: 320px; margin: 0 auto;}
+		.g_form {display: block; position: absolute; z-index: 200; border: 1px solid #000; height: 284px; width: 310px; margin: 4px;}
+		.g_form h3 {font-family: "Playfair Display SC", sans-serif; font-size: 17px; line-height: 17px; font-weight: normal; text-align: center; margin: 26px 0 24px 0;}
+			.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
+		.g_form p {font-size: 11px; line-height: 18px; font-weight: bold; text-align: center; margin: 18px 22px 18px 22px; text-transform: uppercase;}
 
+		/*.get_sale {overflow: hidden; margin-top: 24px;}*/
+			.gift_input {margin: 0 21px 22px 23px;}
+				.gift_input input {width: 243px; padding-left: 14px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}
+		.g_form h4 {text-align: center; font-weight: normal;}
+		.g_form h4 a {text-decoration: none; margin: 0 auto;}
+			.get_sale_button {height: 36px; width: 258px; font-size: 12px !important; line-height: 36px; border: 1px solid #fff; color: #fff; background-color: #000;}
+				.get_sale_button:hover {background-color: #fff; color: #000; border: 1px solid #000;}
+				.get_sale_button:active {background-color: #fff; color: #000; border: 1px solid #000;}
+
+	.head_description {overflow: hidden; margin-top: 60px;}
+		.h_desc {display: block; position: relative; float: left; margin-left: 25px;}
+			.h_desc ul {}
+			.h_desc li {display: inline-block; line-height: 11px; color: #bfbfbf;}
+			.h_desc li b {font-weight: normal; color: #fff;}
+		.h_nav {display: block; position: relative; float: right; margin-right: 22px;}
+			.h_nav ul {}
+			.h_nav li {display: inline-block; line-height: 11px; color: #fff; margin: 0 3px; border-right: 1px solid #fff; padding-right: 9px;}
+			.h_nav li:last-child {border-right: 1px solid transparent;}
+			.h_nav li a {text-transform: uppercase; text-decoration: none; color: #bfbfbf;}
+			.h_nav li a:hover {text-decoration: underline;}
+			.h_nav li b {font-weight: normal; color: #fff;}
+
+	header h6 {text-align: center; font-weight: normal; text-transform: uppercase; margin: -19px 0 0 641px;}
+	header h6 a {text-decoration: none; background: url(../img/arrow.png) 57px 8px no-repeat; padding-right: 20px;}
+	.bottom_button {display: block; position: relative; height: 23px; width: 62px; line-height: 23px; font-size: 11px !important; border: 1px solid #fff; color: #fff;}
 
 /* main */
 .main {overflow: hidden; height: 73px; width: 1366px; margin: 0 auto;}
@@ -60,7 +95,7 @@ header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width:
 
 /* paralax_item */
 .paralax_item {}
-	.paralax_item h2 {font-family: 'Playfair Display SC', sans-serif; font-size: 30px; line-height: 30px; color: #000; font-weight: 400; text-align: center; margin: 31px 0;}
+	.paralax_item h2 {font-family: 'Playfair Display SC', sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 31px 0;}
 	.paralax_item h2 b {font-weight: 700;}
 	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
 
