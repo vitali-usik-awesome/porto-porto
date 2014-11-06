@@ -4,6 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>porto-porto</title>
   		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+  		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -537,7 +538,38 @@
 			        	<span class="nav-left2"></span>
 			        	<span class="nav-right2"></span>
 			    	</div>
-
+			    	<div class="look_img">
+						<img src="img/look_leicht.png" alt="bauformat" />
+					</div>
+					<div class="carousel3">
+			            <ul class="carousel-wrapper3">
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item1.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box left3">
+			                    <img src="img/carousel_item2.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box is-active3">
+			                    <img src="img/carousel_item3.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box right3">
+			                    <img src="img/carousel_item1.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item2.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item3.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+							<div class="carousel_desc_wrapper">
+								<div class="carousel_desc">
+									<h5>Bahamas - 217</h5>
+								</div>	
+							</div>			              			                
+			            </ul>
+			        	<span class="nav-left3"></span>
+			        	<span class="nav-right3"></span>
+			    	</div>
 				</div>
 			</div>
 			<!-- /look -->
@@ -582,6 +614,7 @@
 		<!-- <script type="text/javascript" src="jquery.min(1).js"></script> -->
         <script src="js/carousel.js"></script>
         <script src="js/carousel2.js"></script>
+        <script src="js/carousel3.js"></script>
         <script>
             (function() {
                 Carousel.init({
@@ -596,6 +629,12 @@
                 });
             })();
         </script>
-        
+        <script>
+            (function() {
+                Carousel3.init({
+                    target: $('.carousel3')
+                });
+            })();
+        </script>
 	</body>
 <html>
