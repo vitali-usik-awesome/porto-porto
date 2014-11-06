@@ -505,7 +505,39 @@
 			        	<span class="nav-left"></span>
 			        	<span class="nav-right"></span>
 			    	</div>
-			    	
+			    	<div class="look_img">
+						<img src="img/look_lechners.png" alt="bauformat" />
+					</div>
+					<div class="carousel2">
+			            <ul class="carousel-wrapper2">
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item1.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box left2">
+			                    <img src="img/carousel_item2.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box is-active2">
+			                    <img src="img/carousel_item3.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box right2">
+			                    <img src="img/carousel_item1.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item2.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+			                <li class="carousel-box">
+			                    <img src="img/carousel_item3.jpg" alt="CSS3 Perspective Carousel">
+			                </li>
+							<div class="carousel_desc_wrapper">
+								<div class="carousel_desc">
+									<h5>Bahamas - 217</h5>
+								</div>	
+							</div>			              			                
+			            </ul>
+			        	<span class="nav-left2"></span>
+			        	<span class="nav-right2"></span>
+			    	</div>
+
 				</div>
 			</div>
 			<!-- /look -->
@@ -549,10 +581,18 @@
 
 		<!-- <script type="text/javascript" src="jquery.min(1).js"></script> -->
         <script src="js/carousel.js"></script>
+        <script src="js/carousel2.js"></script>
         <script>
             (function() {
                 Carousel.init({
                     target: $('.carousel')
+                });
+            })();
+        </script>
+        <script>
+            (function() {
+                Carousel2.init({
+                    target: $('.carousel2')
                 });
             })();
         </script>
