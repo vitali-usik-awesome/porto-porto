@@ -73,7 +73,7 @@
 					<ul class="clr">
 						<li><a class="a1" href="#">преимущества</a></li>
 						<li><a class="a2" href="#">выберите свою кухню</a></li>
-						<li><a href="#">как мы работаем</a></li>
+						<li><a class="a3" href="#">как мы работаем</a></li>
 						<li><a href="#">отзывы</a></li>
 						<li><a href="#">команда</a></li>
 						<li><a href="#">кухни</a></li>
@@ -635,7 +635,39 @@
 				</h2>
 			</form>
 		</div>
+		<!-- popup -->
+		<div class="popup p1">
+			<div class="quit quit_p1">
+				<a href="#"><!-- --></a>
+			</div>
+			<div class="popup_left p_left1">
+				<ul>
+					<li>Замер и монтаж по <b>o</b> евро</li>
+					<li>Готовая кухня за <b>2</b> месяца</li>
+					<li>Храним вашу кухню до <b>6</b> месяцев</li>
+					<li>Все под ключ в одном месте</li>
+					<li>Салон в <b>600</b> местрах от Площади Победы</li>
+					<li>Наши кухни служат до <b>80</b> лет</li>
+				</ul>
+			</div>
+			<div class="popup_right p_right1">
+				<h3>Начните работу с нами</h3>
+				<div class="double_line"><!-- --></div>
+				<p>Введите номер телефона для связи с вами и мы перезвоним, чтобы рассказать о дальнейших шагах</p>
+				<form action="#" method="post" class="phone_form6">
+					<div class="gift_input">
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone6" class="rfield6" />
+					</div>
+					<h2>
+						<a class="get_sale_button btn_submit6" href="#">заказать звонок</a>
+					</h2>
+				</form>
+			</div>
+		</div>
 
+		<div class="shape">
+			<!-- -->
+		</div>
 
 
 		<!-- js -->
@@ -672,25 +704,43 @@
         <script type="text/javascript">
 			$(function() {
 				$(".a1").click(function() {
+					$('.shape').toggleClass('shape_vis');
 					$('.accepted').toggleClass('accepted_vis');
         			return false;
 				});
 			});
 			$(function() {
 				$(".quit_a").click(function() {
+					$('.shape').toggleClass('shape_vis');
 					$('.accepted').toggleClass('accepted_vis');
         			return false;
 				});
 			});
 			$(function() {
 				$(".a2").click(function() {
+					$('.shape').toggleClass('shape_vis');
 					$('.callback').toggleClass('callback_vis');
         			return false;
 				});
 			});
 			$(function() {
 				$(".quit_c").click(function() {
+					$('.shape').toggleClass('shape_vis');
 					$('.callback').toggleClass('callback_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".a3").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p1').toggleClass('p1_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_p1").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p1').toggleClass('p1_vis');
         			return false;
 				});
 			});

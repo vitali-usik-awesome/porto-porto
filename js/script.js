@@ -280,4 +280,59 @@ $(function() {
 
 });
 
+//  Phone Mask6
+$(function() {
+  
+  if($('#user_phone6').exists()){
+    
+    $('#user_phone6').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form6').exists()){
+    
+    var form = $('.phone_form6'),
+      btn = form.find('.btn_submit6');
+    
+    form.find('.rfield6').addClass('empty_field6');
+  
+    setInterval(function(){
+    
+      if($('#user_phone6').exists()){
+        var pmc = $('#user_phone6');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field6');
+        } else {
+            pmc.removeClass('empty_field6');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field6').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled6')){
+          return false
+        } else {
+          btn.addClass('disabled6')
+        }
+      } else {
+        btn.removeClass('disabled6')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled6')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
 })( jQuery );
