@@ -315,6 +315,16 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 /* gray_line */
 .gray_line {border-bottom: 1px solid #dedede; width: 1366px; margin: 0 auto;}
 
+/* accepted */
+.accepted {display: block; position: fixed; height: 380px; width: 324px; background: #fff; top: 50%; left: 50%; margin: -112px 0 0 -160px;; z-index: 210;}
+	.accepted h3 {font-family: 'Playfair Display SC', sans-serif; font-size: 21px; line-height: 21px; text-align: center; font-weight: normal; margin: 136px 0 30px 0;}
+	.accepted.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
+	.accepted p {font-size: 11px; line-height: 11px; font-style: bold; text-transform: uppercase; text-align: center; margin: 24px 0 80px 0;}
+	.accepted h2 {display: block; position: relative; text-align: center; margin: 18px 24px 0 66px; font-weight: normal;}
+	.accepted h2 a {text-decoration: none;}
+.quit {display: block; position: absolute; top: -33px; right: -33px;}
+	.quit a {display: block; position: relative; float: right; background: url(../img/quit.png) 0 0 no-repeat; width: 27px; height: 27px;}
+
 
 
 
