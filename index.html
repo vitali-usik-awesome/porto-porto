@@ -71,8 +71,8 @@
 			<div class="nav">
 				<div class="sub_wrapper">
 					<ul class="clr">
-						<li><a href="#">преимущества</a></li>
-						<li><a href="#">выберите свою кухню</a></li>
+						<li><a class="a1" href="#">преимущества</a></li>
+						<li><a class="a2" href="#">выберите свою кухню</a></li>
 						<li><a href="#">как мы работаем</a></li>
 						<li><a href="#">отзывы</a></li>
 						<li><a href="#">команда</a></li>
@@ -608,7 +608,7 @@
 		</div>
 		<!-- popup -->
 		<div class="accepted">
-			<div class="quit">
+			<div class="quit_a">
 				<a href="#"><!-- --></a>
 			</div>
 			<h3>Ваша заявка пинята</h3>
@@ -617,6 +617,23 @@
 			<h2>
 				<a class="button black_button" href="#">позвонить бесплатно</a>
 			</h2>
+		</div>
+		<!-- popup -->
+		<div class="callback">
+			<div class="quit_c">
+				<a href="#"><!-- --></a>
+			</div>
+			<h3>Заказ обратного звонка</h3>
+			<div class="double_line"><!-- --></div>
+			<p>Введите номер телефона для связи с вами и мы перезвоним в течение часа</p>
+			<form action="#" method="post" class="phone_form5">
+				<div class="gift_input">
+					<input type="text" placeholder="(__) ___-__-__" id="user_phone5" class="rfield5" />
+				</div>
+				<h2>
+					<a class="get_sale_button btn_submit5" href="#">заказать звонок</a>
+				</h2>
+			</form>
 		</div>
 
 
@@ -651,5 +668,32 @@
                 });
             })();
         </script>
+        <!-- -->
+        <script type="text/javascript">
+			$(function() {
+				$(".a1").click(function() {
+					$('.accepted').toggleClass('accepted_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_a").click(function() {
+					$('.accepted').toggleClass('accepted_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".a2").click(function() {
+					$('.callback').toggleClass('callback_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_c").click(function() {
+					$('.callback').toggleClass('callback_vis');
+        			return false;
+				});
+			});
+		</script>
 	</body>
 <html>
