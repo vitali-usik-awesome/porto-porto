@@ -23,7 +23,7 @@ body {background: #fff; font-family: 'Arial', sans-serif; font-size: 11px;}
 .white_line {border-bottom: 1px solid #fff; width: 138px; margin: 0 auto;}
 
 /* header */
-header {background: url(../img/header1.png) 0 0 no-repeat; height: 768px; width: 1366px; margin: 0 auto;}
+header {background: url(../img/header1.png) no-repeat center center fixed; display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; /*height: 768px; width: 1366px; margin: 0 auto;*/}
 	.main_free {border-top: 1px solid transparent; border-bottom: 1px solid transparent; color: #fff;}
 	.transparent_button {border: 1px solid #fff; color: #fff; background: transparent;}
 		.transparent_button:hover {background-color: #000; color: #fff; border: 1px solid #fff;}
