@@ -214,6 +214,28 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 	.carousel_desc {display: block; position: absolute; width: 162px; height: 50px; margin: 3px; border: 1px solid #000; z-index: 6;}
 	.carousel_desc h5 {font-family: "Playfair Display SC", sans-serif; font-size: 18px; line-height: 18px; text-align: center; margin-top: 16px;}
 
+.mask {display: none;}
+.carousel-wrapper:hover .mask,
+.carousel-wrapper2:hover .mask,
+.carousel-wrapper3:hover .mask {
+  left: 50%;
+top: 50%;
+z-index: 7;
+margin: -17px 0 0 -70px;
+text-align: center;
+  background-color:#000;
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  filter:alpha(opacity=75);
+  -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=75)';
+  position: absolute;
+}
+
+.order_button {display: block; position: relative; height: 36px; width: 140px; font-size: 12px !important; line-height: 36px; color: #fff; background-color: #000;}
+.mask h4 {text-align: center; font-weight: normal;}
+.mask a {text-decoration: none; color: #fff; margin: 0 auto; text-transform: uppercase;}
+
 .carousel-wrapper, .carousel-wrapper2, .carousel-wrapper3 {height: 380px}
 
 .carousel-box {
