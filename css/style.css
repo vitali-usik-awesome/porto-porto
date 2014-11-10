@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 /* fonts import */
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic&subset=latin,cyrillic);
+/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic&subset=latin,cyrillic);*/
+/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,400,400italic&subset=latin,cyrillic);*/
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,700italic,400,400italic&subset=latin,cyrillic);
 
 /* reset by medic */
 * {padding:0; margin:0;}
@@ -102,9 +104,9 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 
 .par1 {background: url(../img/paralax_test1.png) no-repeat center center fixed; display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; height: 390px;}
 
-/*.par {display: block; position: relative; width: 100%; overflow: hidden;}
+.par {display: block; position: relative; width: 100%; overflow: hidden;}
 	.par h3 {width: 100%;}
-	.par img {max-width: 100%; min-width: 1366px;}*/
+	.par img {max-width: 100%; min-width: 1366px;}
 
 /* choice */
 .choice {font-family: "Playfair Display SC", sans-serif;}
@@ -168,9 +170,11 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 		.review_wrapper {overflow: hidden; width: 940px; margin: 0 auto;}
 			.item {display: block; position: relative; float: left; margin: 0 30px 23px 0;}
 			.item:last-child {margin-right: 0;}
-			.item h3 {border: 1px solid #000; height: 58px; text-align: center; font-family: "Playfair Display SC", sans-serif; font-size: 15px; line-height: 22px; margin-top: 6px;}
-			.item h3 b {font-style: italic;}
-	.reviews h4 {text-align: center; font-weight: normal; margin: 0 0 51px 563px;}
+			.item h3 {border: 1px solid #000; height: 58px; font-weight: normal; text-align: center; font-family: "Playfair Display SC", sans-serif; font-size: 15px; line-height: 22px; margin-top: 6px;}
+			.item h3 b {font-style: italic; font-weight: normal;}
+			.item h5 {border: 1px solid #000; height: 58px; text-align: center; font-family: "Playfair Display SC", sans-serif; font-size: 18px; line-height: 58px; margin-top: 6px;}
+			.item a {color: #000; text-decoration: none;}
+	.reviews h4 {text-align: center; font-weight: normal; margin: 0 0 51px 563px; text-transform: uppercase;}
 	.reviews h4 a {text-decoration: none; width: 230px;}
 
 /* free_advice */
