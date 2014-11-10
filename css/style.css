@@ -100,11 +100,11 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 	.paralax_item h2 b {font-style: italic;}
 	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
 
-.par1 {background: url(../img/paralax_test1.png) no-repeat center center fixed; display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; max-height: 390px;}
+.par1 {background: url(../img/paralax_test1.png) no-repeat center center fixed; display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; height: 390px;}
 
-.par {display: block; position: relative; width: 100%; overflow: hidden;}
+/*.par {display: block; position: relative; width: 100%; overflow: hidden;}
 	.par h3 {width: 100%;}
-	.par img {max-width: 100%; min-width: 1366px;}
+	.par img {max-width: 100%; min-width: 1366px;}*/
 
 /* choice */
 .choice {font-family: "Playfair Display SC", sans-serif;}
@@ -119,7 +119,7 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 				.ch span {display: block; width: 222px; background: #fff; margin-left: 36px; font-size: 20px; line-height: 20px; padding: 20px 0; text-align: center;}
 				.ch a {display: block;}
 
-		.choice_item h5 {text-align: center; margin: 18px 36px 0 36px; text-transform: uppercase;}
+		.choice_item h5 {text-align: center; margin: 18px 36px 0 36px;}
 			.choice_item h5 a {text-decoration: none;}
 
 		.white_button {display: block; position: relative; height: 32px; width: 220px; font-size: 12px !important; line-height: 32px; border: 1px solid #000; color: #000; background-color: #fff;}
@@ -136,11 +136,11 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 			.a_form h3 {font-family: "Playfair Display SC", sans-serif; font-size: 21px; line-height: 21px; text-align: center; margin: 25px 0;}
 			.a_form h3 b {font-style: italic;}
 				.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
-			.a_form p {font-size: 11px; line-height: 11px; font-weight: bold; text-align: center; margin-top: 28px;}
+			.a_form p {font-size: 13px; line-height: 13px; font-weight: bold; text-align: center; margin-top: 28px;}
 			.a_form span p {margin-top: 10px; text-align: center;}
 			.a_form span b {font-size: 19px;}
 
-			.get_sale {overflow: hidden; margin-top: 24px;}
+			.get_sale {overflow: hidden; margin-top: 33px;}
 			.get_sale_input {display: block; position: relative; float: left; margin: 0 21px 0 23px;}
 			.get_sale_input:before {content: "+375"; display: block; height: 40px; color: #363636; position: absolute; top: 9px; left: 39px; font-size: 19px;}
 				.get_sale_input input {width: 171px; padding-left: 85px; height: 32px; line-height: 32px; font-size: 19px !important; margin: 1px 0 0 0;}

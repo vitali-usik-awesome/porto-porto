@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.mutimer {
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    display: block;
+    position: relative;
+    width: 580px;
+    height: 28px;
+    margin: -20px 0 0px 200px;
+    }
+
+    .mutimer .clock {
+        position: relative;
+        }
+
+        .mutimer .clock DIV P {
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            font-weight: normal;
+            padding-right: 3px;
+            margin-left: 3px;
+            float: left;
+            }
+
+        .mutimer .clock div p b {
+            font-size: 19px;
+            line-height: 13px;
+        }
+
+
+        .mutimer .clock DIV.ms {
+            text-align: left;
+            background: none;
+            padding-right: 0;
+            }
+
+    .mutimer .expired {
+        font-size: 24px;
+        text-align: center;
+        /*line-height: 150px;*/
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        }
