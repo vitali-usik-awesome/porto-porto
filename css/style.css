@@ -6,7 +6,11 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,700italic,400,400italic&subset=latin,cyrillic);
 
 /* reset by medic */
-* {padding:0; margin:0;}
+* {padding:0; margin:0;
+-webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: antialiased;
+        -o-font-smoothing: antialiased;
+        font-smoothing: antialiased;}
 img {border:0 none;}
 div {display:block; position:relative;}
 ul {list-style: none;}
@@ -166,7 +170,7 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 
 /* reviews */
 .reviews {width: 1366px; margin: 0 auto; padding-bottom: 28px;}
-	.reviews h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 64px 0 67px 0;}
+	.reviews h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 64px 0 67px 0; font-weight: 700;}
 		.review_wrapper {overflow: hidden; width: 940px; margin: 0 auto;}
 			.item {display: block; position: relative; float: left; margin: 0 30px 23px 0;}
 			.item:last-child {margin-right: 0;}
