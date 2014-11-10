@@ -178,10 +178,10 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 	.reviews h4 a {text-decoration: none; width: 230px;}
 
 /* free_advice */
-.free_advice {width: 926px; margin: 0 auto;}
+.free_advice {width: 1366px; margin: 0 auto;}
 	.free_advice h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 67px 0 68px 0; font-weight: normal;}
 	.free_advice h2 b {font-style: italic;}
-		.design_wrapper {overflow: hidden; margin-bottom: 54px;}
+		.design_wrapper {overflow: hidden; padding-bottom: 54px; width: 926px; margin: 0 auto;}
 			.design_item {display: block; position: relative; float: left; height: 310px; width: 210px; margin-right: 28px;}
 			.design_item:last-child {margin-right: 0;}
 				.d_img {display: block; position: absolute; top: 0; left: 0; z-index: 100;}
@@ -190,7 +190,7 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 					.d_form {display: block; position: absolute; z-index: 200; border: 1px solid #000; height: 76px; width: 158px; margin: 4px; text-align: center;}
 					.d_form h5 {font-family: "Playfair Display SC", sans-serif; font-size: 15px; line-height: 17px; font-weight: normal; margin-top: 10px;}
 					.d_form p {font-family: "Playfair Display SC", sans-serif; font-size: 13px; line-height: 17px; font-style: italic;}
-		.design_form {display: block; position: relative; margin: 0 0 82px 169px; border: 1px solid #000; height: 226px; width: 586px;}
+		.design_form {display: block; position: relative; margin: 0 0 82px 390px; border: 1px solid #000; height: 226px; width: 586px;}
 			.design_form h3 {font-family: "Playfair Display SC", sans-serif; font-size: 21px; line-height: 21px; text-align: center; margin: 36px 0 26px 0; font-weight: normal;}
 			.design_form h3 b {font-style: italic;}
 				.double_line {width: 135px; height: 3px; margin: 0 auto; border-top: 1px solid #000; border-bottom: 1px solid #000;}
@@ -344,7 +344,7 @@ text-align: center;
 
 
 /* map */
-.map {display: block; position: relative;}
+.map {display: block; position: relative; width: 100%;}
 	.map h2 {font-family: "Playfair Display SC", sans-serif; font-size: 30px; line-height: 30px; color: #000; text-align: center; margin: 63px 0 61px 0; font-weight: normal;}
 	.map_adress_wrapper {display: block; position: absolute; top: 54%; left: 34%; width: 426px; height: 151px; background: #fff; z-index: 100;}
 	.map_adress {display: block; position: absolute; width: 410px; height: 136px; border: 1px solid #000; z-index: 150; margin: 7px 9px;}
