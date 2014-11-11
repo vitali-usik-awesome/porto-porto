@@ -75,6 +75,7 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 	.main h2 a {text-decoration: none;}
 	.call_us {display: block; position: relative; float: right; margin-top: 16px;}
 		.call_us p {text-transform: uppercase; line-height: 14px;}
+		.call_us p:first-child {font-weight: bold;}
 
 	.button {display: block; position: relative; height: 36px; width: 193px; font-size: 12px !important; line-height: 36px;}
 		.button:hover {}
@@ -394,7 +395,7 @@ text-align: center;
 .phone_form5 {margin: 10px 0 0 10px;}
 
 /* popup */
-.popup {display: block; position: fixed; width: 930px; height: 379px; background: #fff; top: 50%; left: 50%; margin: -112px 0 0 -450px; z-index: 210;}
+.popup {display: block; position: fixed; width: 930px; height: 379px; background: #fff; top: 50%; left: 50%; margin: -189px 0 0 -420px; z-index: 210;}
 	.popup_left {display: block; position: relative; float: left; width: 606px;}
 	
 	.popup_right {display: block; position: relative; float: left; width: 324px;}
