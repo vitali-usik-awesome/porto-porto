@@ -1,8 +1,6 @@
 @charset "utf-8";
 
 /* fonts import */
-/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700italic&subset=latin,cyrillic);*/
-/*@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,400,400italic&subset=latin,cyrillic);*/
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:700,700italic,400,400italic&subset=latin,cyrillic);
 
 /* reset by medic */
@@ -452,47 +450,47 @@ text-align: center;
 /* pop up choice 1 */
 .p_c_1 {display: none;}
 	.p_c_1_vis {display: block;}
-	.p_c_1left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_1left {background: url(../img/types/style/sovremennaya.jpg) 0 0 no-repeat;}
 
 /* pop up choice 2 */
 .p_c_2 {display: none;}
 	.p_c_2_vis {display: block;}
-	.p_c_2left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_2left {background: url(../img/types/style/classic.jpg) 0 0 no-repeat;}
 
 /* pop up choice 3 */
 .p_c_3 {display: none;}
 	.p_c_3_vis {display: block;}
-	.p_c_3left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_3left {background: url(../img/types/style/bezruchechnaya.jpg) 0 0 no-repeat;}
 
 /* pop up choice 4 */
 .p_c_4 {display: none;}
 	.p_c_4_vis {display: block;}
-	.p_c_4left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_4left {background: url(../img/types/facade/massiv.jpg) 0 0 no-repeat;}
 
 /* pop up choice 5 */
 .p_c_5 {display: none;}
 	.p_c_5_vis {display: block;}
-	.p_c_5left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_5left {background: url(../img/types/facade/lak.jpg) 0 0 no-repeat;}
 
 /* pop up choice 6 */
 .p_c_6 {display: none;}
 	.p_c_6_vis {display: block;}
-	.p_c_6left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_6left {background: url(../img/types/facade/plastic.jpg) 0 0 no-repeat;}
 
 /* pop up choice 7 */
 .p_c_7 {display: none;}
 	.p_c_7_vis {display: block;}
-	.p_c_7left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_7left {background: url(../img/types/layout/lineynaya.jpg) 0 0 no-repeat;}
 
 /* pop up choice 8 */
 .p_c_8 {display: none;}
 	.p_c_8_vis {display: block;}
-	.p_c_8left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_8left {background: url(../img/types/layout/ostrovnaya.jpg) 0 0 no-repeat;}
 
 /* pop up choice 9 */
 .p_c_9 {display: none;}
 	.p_c_9_vis {display: block;}
-	.p_c_9left {background: url(../img/p2_left.png) 0 0 no-repeat;}
+	.p_c_9left {background: url(../img/types/layout/Krugovaya.jpg) 0 0 no-repeat;}
 
 
 
