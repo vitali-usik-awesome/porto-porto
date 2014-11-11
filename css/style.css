@@ -100,7 +100,12 @@ header {background: url(../img/header1.png) no-repeat center center fixed; displ
 	.paralax_item h2 b {font-style: italic;}
 	.paralax_item p {font-family: 'Georgia', sans-serif; font-size: 14px; line-height: 16px; color: #000; font-style: italic; width: 380px; text-align: center; margin: 0 auto; padding: 32px 0 31px 0;}
 
-	.par1 {background: url(../img/paralax_test1.png) no-repeat center center fixed; display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; height: 390px;}
+	.par0 {display: block; position: relative; width: 100%; min-width: 1366px; background-size: cover; height: 390px;}
+	.par1 {background: url(../img/paralax/1.jpg) no-repeat center center fixed;}
+	.par2 {background: url(../img/paralax/2.jpg) no-repeat center center fixed;}
+	.par3 {background: url(../img/paralax/3.jpg) no-repeat center center fixed;}
+	.par4 {background: url(../img/paralax/4.jpg) no-repeat center center fixed;}
+
 
 	.par {display: block; position: relative; width: 100%; overflow: hidden;}
 		.par h3 {width: 100%;}
