@@ -191,7 +191,7 @@
 							<div class="ch">
 								<span>Современная</span>
 								<h5>
-									<a href="#" class="white_button">Выбрать</a>
+									<a href="#" class="white_button a4">Выбрать</a>
 								</h5>
 							</div>
 						</div>
@@ -513,7 +513,7 @@
 							</div>
 							<div class="mask">
 								<h4>
-									<a href="#" class="order_button">Заказать</a>
+									<a href="#" class="order_button a5">Заказать</a>
 								</h4>
             			    </div>			              			                
 			            </ul>
@@ -689,6 +689,50 @@
 				</form>
 			</div>
 		</div>
+		<!-- popup2 -->
+		<div class="popup p2">
+			<div class="quit quit_p2">
+				<a href="#"><!-- --></a>
+			</div>
+			<div class="popup_left p_left2">
+				<!-- -->
+			</div>
+			<div class="popup_right p_right2">
+				<h3>Закажите кухню</h3>
+				<div class="double_line"><!-- --></div>
+				<p>Введите номер телефона для связи с вами и мы перезвоним, чтобы начать работать с вами</p>
+				<form action="#" method="post" class="phone_form7">
+					<div class="gift_input">
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone7" class="rfield7" />
+					</div>
+					<h2>
+						<a class="get_sale_button btn_submit7" href="#">заказать звонок</a>
+					</h2>
+				</form>
+			</div>
+		</div>
+		<!-- popup3 -->
+		<div class="popup p3">
+			<div class="quit quit_p3">
+				<a href="#"><!-- --></a>
+			</div>
+			<div class="popup_left p_left3">
+				<!-- -->
+			</div>
+			<div class="popup_right p_right3">
+				<h3>Подберите дизайн кухни</h3>
+				<div class="double_line"><!-- --></div>
+				<p>Введите номер телефона для связи с вами и мы поможем выбрать подходящий дизайн для вашей кухни</p>
+				<form action="#" method="post" class="phone_form8">
+					<div class="gift_input">
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone8" class="rfield8" />
+					</div>
+					<h2>
+						<a class="get_sale_button btn_submit8" href="">заказать звонок</a>
+					</h2>
+				</form>
+			</div>
+		</div>
 
 		<div class="shape">
 			<!-- -->
@@ -766,6 +810,34 @@
 				$(".quit_p1").click(function() {
 					$('.shape').toggleClass('shape_vis');
 					$('.p1').toggleClass('p1_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".a4").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p2').toggleClass('p2_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_p2").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p2').toggleClass('p2_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".a5").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p3').toggleClass('p3_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_p3").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p3').toggleClass('p3_vis');
         			return false;
 				});
 			});

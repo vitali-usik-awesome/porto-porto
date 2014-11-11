@@ -335,4 +335,114 @@ $(function() {
 
 });
 
+//  Phone Mask7
+$(function() {
+  
+  if($('#user_phone7').exists()){
+    
+    $('#user_phone7').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form7').exists()){
+    
+    var form = $('.phone_form7'),
+      btn = form.find('.btn_submit7');
+    
+    form.find('.rfield7').addClass('empty_field7');
+  
+    setInterval(function(){
+    
+      if($('#user_phone7').exists()){
+        var pmc = $('#user_phone7');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field7');
+        } else {
+            pmc.removeClass('empty_field7');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field7').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled7')){
+          return false
+        } else {
+          btn.addClass('disabled7')
+        }
+      } else {
+        btn.removeClass('disabled7')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled7')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask8
+$(function() {
+  
+  if($('#user_phone8').exists()){
+    
+    $('#user_phone8').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form8').exists()){
+    
+    var form = $('.phone_form8'),
+      btn = form.find('.btn_submit8');
+    
+    form.find('.rfield8').addClass('empty_field8');
+  
+    setInterval(function(){
+    
+      if($('#user_phone8').exists()){
+        var pmc = $('#user_phone8');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field8');
+        } else {
+            pmc.removeClass('empty_field8');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field8').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled8')){
+          return false
+        } else {
+          btn.addClass('disabled8')
+        }
+      } else {
+        btn.removeClass('disabled8')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled8')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
 })( jQuery );
