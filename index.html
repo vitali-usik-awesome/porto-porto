@@ -510,7 +510,7 @@
 							</div>
 							<div class="mask">
 								<h4>
-									<a href="#" class="order_button a5">Заказать</a>
+									<a href="#" class="order_button l1">Заказать</a>
 								</h4>
             			    </div>			              			                
 			            </ul>
@@ -544,7 +544,7 @@
 							</div>
 							<div class="mask">
 								<h4>
-									<a href="#" class="order_button">Заказать</a>
+									<a href="#" class="order_button l2">Заказать</a>
 								</h4>
             			    </div>			              			                
 			            </ul>
@@ -578,7 +578,7 @@
 							</div>
 							<div class="mask">
 								<h4>
-									<a href="#" class="order_button">Заказать</a>
+									<a href="#" class="order_button l3">Заказать</a>
 								</h4>
             			    </div>			              			                
 			            </ul>
@@ -888,39 +888,75 @@
 		</div>
 		<!-- /popup choice1-->
 
-
-
-
-
-
-
-
-
-
-
-
-		<!-- popup3 -->
-		<div class="popup p3">
-			<div class="quit quit_p3">
+		<!-- popup look 1 -->
+		<div class="popup p_l_1">
+			<div class="quit quit_p_l_1">
 				<a href="#"><!-- --></a>
 			</div>
-			<div class="popup_left p_left3">
+			<div class="popup_left p_left p_l_1left">
 				<!-- -->
 			</div>
-			<div class="popup_right p_right3">
+			<div class="popup_right p_right">
 				<h3>Подберите дизайн кухни</h3>
 				<div class="double_line"><!-- --></div>
 				<p>Введите номер телефона для связи с вами и мы поможем выбрать подходящий дизайн для вашей кухни</p>
-				<form action="#" method="post" class="phone_form8">
+				<form action="#" method="post" class="phone_form_l1">
 					<div class="gift_input">
-						<input type="text" placeholder="(__) ___-__-__" id="user_phone8" class="rfield8" />
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone_l1" class="rfield_l1" />
 					</div>
 					<h2>
-						<a class="get_sale_button btn_submit8" href="">заказать звонок</a>
+						<a class="get_sale_button btn_submit_l1" href="">заказать звонок</a>
 					</h2>
 				</form>
 			</div>
 		</div>
+		<!-- /popup look 1 -->
+		<!-- popup look 2 -->
+		<div class="popup p_l_2">
+			<div class="quit quit_p_l_2">
+				<a href="#"><!-- --></a>
+			</div>
+			<div class="popup_left p_left p_l_2left">
+				<!-- -->
+			</div>
+			<div class="popup_right p_right">
+				<h3>Подберите дизайн кухни</h3>
+				<div class="double_line"><!-- --></div>
+				<p>Введите номер телефона для связи с вами и мы поможем выбрать подходящий дизайн для вашей кухни</p>
+				<form action="#" method="post" class="phone_form_l2">
+					<div class="gift_input">
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone_l2" class="rfield_l2" />
+					</div>
+					<h2>
+						<a class="get_sale_button btn_submit_l2" href="">заказать звонок</a>
+					</h2>
+				</form>
+			</div>
+		</div>
+		<!-- /popup look 2 -->
+		<!-- popup look 3 -->
+		<div class="popup p_l_3">
+			<div class="quit quit_p_l_3">
+				<a href="#"><!-- --></a>
+			</div>
+			<div class="popup_left p_left p_l_3left">
+				<!-- -->
+			</div>
+			<div class="popup_right p_right">
+				<h3>Подберите дизайн кухни</h3>
+				<div class="double_line"><!-- --></div>
+				<p>Введите номер телефона для связи с вами и мы поможем выбрать подходящий дизайн для вашей кухни</p>
+				<form action="#" method="post" class="phone_form_l3">
+					<div class="gift_input">
+						<input type="text" placeholder="(__) ___-__-__" id="user_phone_l3" class="rfield_l3" />
+					</div>
+					<h2>
+						<a class="get_sale_button btn_submit_l3" href="">заказать звонок</a>
+					</h2>
+				</form>
+			</div>
+		</div>
+		<!-- /popup look 1 -->
 
 		<div class="shape">
 			<!-- -->
@@ -1128,28 +1164,56 @@
         			return false;
 				});
 			});
-
-
-
-
-
-
-
 			// pop up for look div 
 			$(function() {
-				$(".a5").click(function() {
+				$(".l1").click(function() {
 					$('.shape').toggleClass('shape_vis');
-					$('.p3').toggleClass('p3_vis');
+					$('.p_l_1').toggleClass('p_l_1_vis');
         			return false;
 				});
 			});
 			$(function() {
-				$(".quit_p3").click(function() {
+				$(".quit_p_l_1").click(function() {
 					$('.shape').toggleClass('shape_vis');
-					$('.p3').toggleClass('p3_vis');
+					$('.p_l_1').toggleClass('p_l_1_vis');
         			return false;
 				});
 			});
+			$(function() {
+				$(".l2").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p_l_2').toggleClass('p_l_2_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_p_l_2").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p_l_2').toggleClass('p_l_2_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".l3").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p_l_3').toggleClass('p_l_3_vis');
+        			return false;
+				});
+			});
+			$(function() {
+				$(".quit_p_l_3").click(function() {
+					$('.shape').toggleClass('shape_vis');
+					$('.p_l_3').toggleClass('p_l_3_vis');
+        			return false;
+				});
+			});
+
+
+
+
+
+
+
 		</script>
 		<script src="js/mutimer.js" type="text/javascript"></script>
 		<script type="text/javascript">

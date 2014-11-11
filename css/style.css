@@ -428,16 +428,6 @@ text-align: center;
 .p2 {display: none;}
 .p2_vis {display: block;}
 
-/* popup2 */
-.p_left3 {background: url(../img/p2_left.png) 0 0 no-repeat; width: 606px; height: 379px;}
-
-.p_right3 {}
-	.p_right3 h3 {margin: 60px 0 25px 57px; width: 210px;}
-	.p_right3 p {margin: 25px 0 25px 57px; width: 210px}
-	.p_right3 h2 {margin-left: 24px;}
-
-.p3 {display: none;}
-.p3_vis {display: block;}
 
 /* pop up common styel */
 .p_left {width: 606px; height: 379px;}
@@ -492,7 +482,20 @@ text-align: center;
 	.p_c_9_vis {display: block;}
 	.p_c_9left {background: url(../img/types/layout/Krugovaya.jpg) 0 0 no-repeat;}
 
+/* pop up look 1 */
+.p_l_1 {display: none;}
+	.p_l_1_vis {display: block;}
+	.p_l_1left {background: url(../img/slider/bauformat/bauformat.jpg) 0 0 no-repeat;}
 
+/* pop up look 2 */
+.p_l_2 {display: none;}
+	.p_l_2_vis {display: block;}
+	.p_l_2left {background: url(../img/slider/lechner/lechner_slider.jpg) 0 0 no-repeat;}
+
+/* pop up look 3 */
+.p_l_3 {display: none;}
+	.p_l_3_vis {display: block;}
+	.p_l_3left {background: url(../img/slider/leicht/leicht_slider.jpg) 0 0 no-repeat;}
 
 
 
