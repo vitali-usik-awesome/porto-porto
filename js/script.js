@@ -170,7 +170,7 @@ $(function() {
 
 });
 
-//  Phone Mask4
+//  Phone Mask 4
 $(function() {
   
   if($('#user_phone4').exists()){
@@ -225,7 +225,7 @@ $(function() {
 
 });
 
-//  Phone Mask5
+//  Phone Mask 5
 $(function() {
   
   if($('#user_phone5').exists()){
@@ -280,7 +280,7 @@ $(function() {
 
 });
 
-//  Phone Mask6
+//  Phone Mask 6
 $(function() {
   
   if($('#user_phone6').exists()){
@@ -335,51 +335,51 @@ $(function() {
 
 });
 
-//  Phone Mask7
+//  Phone Mask c1
 $(function() {
   
-  if($('#user_phone7').exists()){
+  if($('#user_phone_c1').exists()){
     
-    $('#user_phone7').each(function(){
+    $('#user_phone_c1').each(function(){
       $(this).mask("(99) 999-99-99");
     });
     
   }
   
-  if($('.phone_form7').exists()){
+  if($('.phone_form_c1').exists()){
     
-    var form = $('.phone_form7'),
-      btn = form.find('.btn_submit7');
+    var form = $('.phone_form_c1'),
+      btn = form.find('.btn_submit_c1');
     
-    form.find('.rfield7').addClass('empty_field7');
+    form.find('.rfield_c1').addClass('empty_field_c1');
   
     setInterval(function(){
     
-      if($('#user_phone7').exists()){
-        var pmc = $('#user_phone7');
+      if($('#user_phone_c1').exists()){
+        var pmc = $('#user_phone_c1');
         if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
-          pmc.addClass('empty_field7');
+          pmc.addClass('empty_field_c1');
         } else {
-            pmc.removeClass('empty_field7');
+            pmc.removeClass('empty_field_c1');
         }
       }
       
-      var sizeEmpty = form.find('.empty_field7').size();
+      var sizeEmpty = form.find('.empty_field_c1').size();
       
       if(sizeEmpty > 0){
-        if(btn.hasClass('disabled7')){
+        if(btn.hasClass('disabled_c1')){
           return false
         } else {
-          btn.addClass('disabled7')
+          btn.addClass('disabled_c1')
         }
       } else {
-        btn.removeClass('disabled7')
+        btn.removeClass('disabled_c1')
       }
       
     },200);
 
     btn.click(function(){
-      if($(this).hasClass('disabled7')){
+      if($(this).hasClass('disabled_c1')){
         return false
       } else {
         form.submit();
@@ -389,6 +389,449 @@ $(function() {
   }
 
 });
+
+//  Phone Mask c2
+$(function() {
+  
+  if($('#user_phone_c2').exists()){
+    
+    $('#user_phone_c2').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c2').exists()){
+    
+    var form = $('.phone_form_c2'),
+      btn = form.find('.btn_submit_c2');
+    
+    form.find('.rfield_c2').addClass('empty_field_c2');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c2').exists()){
+        var pmc = $('#user_phone_c2');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c2');
+        } else {
+            pmc.removeClass('empty_field_c2');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c2').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c2')){
+          return false
+        } else {
+          btn.addClass('disabled_c2')
+        }
+      } else {
+        btn.removeClass('disabled_c2')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c2')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c3
+$(function() {
+  
+  if($('#user_phone_c3').exists()){
+    
+    $('#user_phone_c3').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c3').exists()){
+    
+    var form = $('.phone_form_c3'),
+      btn = form.find('.btn_submit_c3');
+    
+    form.find('.rfield_c3').addClass('empty_field_c3');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c3').exists()){
+        var pmc = $('#user_phone_c3');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c3');
+        } else {
+            pmc.removeClass('empty_field_c3');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c3').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c3')){
+          return false
+        } else {
+          btn.addClass('disabled_c3')
+        }
+      } else {
+        btn.removeClass('disabled_c3')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c3')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c4
+$(function() {
+  
+  if($('#user_phone_c4').exists()){
+    
+    $('#user_phone_c4').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c4').exists()){
+    
+    var form = $('.phone_form_c4'),
+      btn = form.find('.btn_submit_c4');
+    
+    form.find('.rfield_c4').addClass('empty_field_c4');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c4').exists()){
+        var pmc = $('#user_phone_c4');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c4');
+        } else {
+            pmc.removeClass('empty_field_c4');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c4').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c4')){
+          return false
+        } else {
+          btn.addClass('disabled_c4')
+        }
+      } else {
+        btn.removeClass('disabled_c4')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c4')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c5
+$(function() {
+  
+  if($('#user_phone_c5').exists()){
+    
+    $('#user_phone_c5').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c5').exists()){
+    
+    var form = $('.phone_form_c5'),
+      btn = form.find('.btn_submit_c5');
+    
+    form.find('.rfield_c5').addClass('empty_field_c5');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c5').exists()){
+        var pmc = $('#user_phone_c5');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c5');
+        } else {
+            pmc.removeClass('empty_field_c5');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c5').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c5')){
+          return false
+        } else {
+          btn.addClass('disabled_c5')
+        }
+      } else {
+        btn.removeClass('disabled_c5')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c5')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c6
+$(function() {
+  
+  if($('#user_phone_c6').exists()){
+    
+    $('#user_phone_c6').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c6').exists()){
+    
+    var form = $('.phone_form_c6'),
+      btn = form.find('.btn_submit_c6');
+    
+    form.find('.rfield_c6').addClass('empty_field_c6');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c6').exists()){
+        var pmc = $('#user_phone_c6');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c6');
+        } else {
+            pmc.removeClass('empty_field_c6');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c6').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c6')){
+          return false
+        } else {
+          btn.addClass('disabled_c6')
+        }
+      } else {
+        btn.removeClass('disabled_c6')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c6')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c7
+$(function() {
+  
+  if($('#user_phone_c7').exists()){
+    
+    $('#user_phone_c7').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c7').exists()){
+    
+    var form = $('.phone_form_c7'),
+      btn = form.find('.btn_submit_c7');
+    
+    form.find('.rfield_c7').addClass('empty_field_c7');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c7').exists()){
+        var pmc = $('#user_phone_c7');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c7');
+        } else {
+            pmc.removeClass('empty_field_c7');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c7').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c7')){
+          return false
+        } else {
+          btn.addClass('disabled_c7')
+        }
+      } else {
+        btn.removeClass('disabled_c7')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c7')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c8
+$(function() {
+  
+  if($('#user_phone_c8').exists()){
+    
+    $('#user_phone_c8').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c8').exists()){
+    
+    var form = $('.phone_form_c8'),
+      btn = form.find('.btn_submit_c8');
+    
+    form.find('.rfield_c8').addClass('empty_field_c8');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c8').exists()){
+        var pmc = $('#user_phone_c8');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c8');
+        } else {
+            pmc.removeClass('empty_field_c8');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c8').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c8')){
+          return false
+        } else {
+          btn.addClass('disabled_c8')
+        }
+      } else {
+        btn.removeClass('disabled_c8')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c8')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+//  Phone Mask c9
+$(function() {
+  
+  if($('#user_phone_c9').exists()){
+    
+    $('#user_phone_c9').each(function(){
+      $(this).mask("(99) 999-99-99");
+    });
+    
+  }
+  
+  if($('.phone_form_c9').exists()){
+    
+    var form = $('.phone_form_c9'),
+      btn = form.find('.btn_submit_c9');
+    
+    form.find('.rfield_c9').addClass('empty_field_c9');
+  
+    setInterval(function(){
+    
+      if($('#user_phone_c9').exists()){
+        var pmc = $('#user_phone_c9');
+        if ( (pmc.val().indexOf("_") != -1) || pmc.val() == '' ) {
+          pmc.addClass('empty_field_c9');
+        } else {
+            pmc.removeClass('empty_field_c9');
+        }
+      }
+      
+      var sizeEmpty = form.find('.empty_field_c9').size();
+      
+      if(sizeEmpty > 0){
+        if(btn.hasClass('disabled_c9')){
+          return false
+        } else {
+          btn.addClass('disabled_c9')
+        }
+      } else {
+        btn.removeClass('disabled_c9')
+      }
+      
+    },200);
+
+    btn.click(function(){
+      if($(this).hasClass('disabled_c9')){
+        return false
+      } else {
+        form.submit();
+      }
+    });
+    
+  }
+
+});
+
+
+
 
 //  Phone Mask8
 $(function() {
